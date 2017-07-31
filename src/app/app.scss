@@ -1,0 +1,135 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+.toolbar-background{
+    background: #329e52;
+}
+.toolbar-ios ion-title{
+    padding: 0 50px 1px !important;
+}
+    
+.toolbar-title{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+.bar-button-menutoggle{
+    color: black !important;
+}
+
+ion-menu{
+    ion-content{
+        background-color: white !important;
+        ion-list{
+            padding-top: 40%;
+        }
+    }
+}
+
+ion-content{
+    background-color: black !important;    
+    .logo-icon{
+        width: 100%;
+        height: 25%;        
+    }
+}
+
+.backdrop{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .5;
+    display: flex;
+    &.busy{
+        z-index: 100;
+    }
+}
+
+.alert-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 200;
+    
+    .alert-body{
+        text-align: center;
+        width: 80%;
+        height: 30%;
+        background-color: white;
+        border-radius: 3%;
+        .nav{
+            height: 13%;
+            padding-top: 3%;
+            padding-right: 4%;
+            text-align: right;
+            .icon{
+                color: #289949;
+                font-size: 20px;
+            }
+        }
+        .header{
+            height: 20%;
+            p{
+                margin: 5%;
+                color: #289949;
+                font-size: 4vw;
+                font-weight: bold;
+            }
+        }
+        .message{
+            height: 25%;
+            padding-right: 16px;
+            .item-inner{
+                border-bottom: none !important;
+                padding-right:0;
+                .input{
+                    padding-left: 2px;
+                    padding-right: 2px;
+                    border: 1px solid rgba(0, 0, 0, .5);
+                }
+            }
+        }
+        .footer{
+            padding-top: 4%;
+            padding-left: 30%;
+            padding-right: 30%;
+            height: 22%;
+            .btn-login{                
+                margin: auto;
+                // width: 30%;
+                height: 100%;
+                background-color: #cc232a;
+                border-radius: 5px;
+               
+            }
+
+        }
+    }
+}
+
+ion-alert{
+    .alert-wrapper{
+        width: 80%;
+    }
+}

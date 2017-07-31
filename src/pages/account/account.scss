@@ -1,0 +1,25 @@
+page-account {
+    ion-content{
+        .btn-div{
+            .button{
+                background-color: #9ccc65;
+                border-radius: 2vw;
+                text-transform: none;
+                font-size: 5vw;
+                box-shadow: none;
+            }
+        }
+        ion-list{
+            .title{
+                float: left;
+                width:30%;
+            }
+
+            .content{
+                float: right;
+                width: 60%;
+            }
+        }
+    }
+    
+}

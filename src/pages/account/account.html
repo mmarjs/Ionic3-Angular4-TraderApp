@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Account Settings
+    </ion-title>
+    <ion-buttons left>
+        <button ion-button menuToggle icon-only>
+            <ion-icon name='menu'></ion-icon>
+        </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+    <div class="logo-icon">
+        <img src="assets/img/logo.png">
+    </div><br /><br />
+    <ion-list>
+        <ion-item class="username">
+            <p class="title">Username:</p>
+            <p class="content">testuser</p>
+        </ion-item>
+        <ion-item class="useremail">
+            <p class="title">Email:</p>
+            <p class="content">asdf@1234</p>
+        </ion-item>
+        <ion-item class="phonenumber">
+            <p class="title">Phone Number:</p>
+            <p class="content">+14793011955</p>      
+        </ion-item>
+        <ion-item class="address">           
+            <p class="title">Address:</p>
+            <p class="content">123 place street, Northwest NV 28282</p>    
+        </ion-item>
+        <ion-item class="btn-item">
+            <ion-label>Email Alerts:</ion-label>
+            <ion-toggle></ion-toggle>
+        </ion-item>
+        <ion-item class="btn-item">
+            <ion-label>Text Alerts:</ion-label>
+            <ion-toggle></ion-toggle>
+        </ion-item>
+        <ion-item class="btn-item">
+            <ion-label>Phone Alerts:</ion-label>
+            <ion-toggle></ion-toggle>
+        </ion-item>
+    </ion-list>
+    <div class="btn-div">
+      <button class="main-menu" ion-button block large (click)="gotoMainMenu()">Main Menu</button>
+    </div>
+</ion-content>

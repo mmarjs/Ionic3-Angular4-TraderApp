@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <div class="logo-icon">
+    <img src="assets/img/logo.png">
+  </div>
+  <ion-list>    
+  	<ion-item class="btn-item" (click)="goToScreen('home')">
+      <p>Home</p>
+    </ion-item>
+    <ion-item class="btn-item" (click)="goToScreen('alert')">
+      <p>Alerts</p>
+    </ion-item>
+    <ion-item class="btn-item" (click)="goToScreen('audio')">
+      <p>Audios</p>
+    </ion-item>
+    <ion-item class="btn-item" (click)="goToScreen('chat')">
+      <p>App Chat</p>      
+    </ion-item>
+    <ion-item class="btn-item" (click)="goToScreen('account_info')">
+      <p>Account Information</p>      
+    </ion-item>
+    <ion-item class="btn-item" (click)="goToScreen('contact_us')">
+      <p>Contact Us</p>      
+    </ion-item>
+  </ion-list>
+  <div class="btn-div">
+      <button class="logout" ion-button block large (click)="goToScreen('login')">Logout</button>
+  </div>
+</ion-content>

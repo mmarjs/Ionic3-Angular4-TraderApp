@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Audios
+    </ion-title>
+    <ion-buttons left>
+        <button ion-button menuToggle icon-only>
+            <ion-icon name='menu'></ion-icon>
+        </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+    <div class="logo-icon">
+        <img src="assets/img/logo.png">
+    </div><br /><br />
+    <div class="scroll-body">
+        <ion-item class="btn-item" *ngFor="let alert of [1,2,3,4,5,6,7,8,9,10]">
+            <p>201601{{alert}}.mp3</p>
+        </ion-item>
+    </div><br />
+    <ion-range>
+    </ion-range>
+	 
+	
+    <ion-grid>
+		<ion-row>
+		    <ion-col col-7>
+		    	<button ion-button class="audio-option">
+				    <ion-icon name="play"></ion-icon>
+				</button>
+				<button ion-button  class="audio-option">
+				    <ion-icon name="square"></ion-icon>
+				</button>
+				<button ion-button  class="audio-option">
+				    <ion-icon name="volume-up"></ion-icon>
+				</button>
+		    </ion-col>
+		    <ion-col col-5>
+		    	<ion-range class="range-inline">
+   				</ion-range>
+		    </ion-col>
+		</ion-row>
+	</ion-grid>
+
+    <div class="btn-div">
+      <button class="main-menu" ion-button block large (click)="gotoMainMenu()">Main Menu</button>
+    </div>
+</ion-content>

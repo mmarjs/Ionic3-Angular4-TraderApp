@@ -1,0 +1,40 @@
+<ion-content padding>
+    <div class="logo-icon">
+        <img src="assets/img/logo.png">
+    </div>
+    <div class="term-body">
+        <div class="content-txt">
+            <p>
+                Move the terms to a second page and only have the sign in with the phone number then the login in button?<br>
+                Here is the purpose logic:<br>
+                1. The user enters the phone number and clicks the login button<br>
+                Note: All user will be pre-entered into the app database, this will be on AWS<br>
+                2. Once you logins, the check will be made to the database.<br>
+                    If in Database, Fist time user will be direct to the terms and agreements page to agree with a check box.<br>
+                    Once they click the box to agree then login we record that to the database with the Device ID in which the login in from.<br> 
+                    Once the users signs in record the Device ID, the user can only run the app on one device and only users in the database can access the app<br>
+                3. If the users try’s to access the app  that is not in the database will record the phone number and the device ID into a tracking table!<br>
+                4. If a user that is already sign up on device and try’s to load the app onto a another device will notify them that the app is already on a device.<br> 
+                    And will log that attempt to a tracking table.<br> 
+                5. If the users agrees to the terms the if they log out and re-login they will not have to so that again, it will by pass that screen when it does the user check when trying to login<br> 
+                6. If the users agrees to the terms the if they log out and re-login they will not have to so that again, it will by pass that screen when it does the user check when trying to login<br> 
+                7. If the users agrees to the terms the if they log out and re-login they will not have to so that again, it will by pass that screen when it does the user check when trying to login<br> 
+                8. If the users agrees to the terms the if they log out and re-login they will not have to so that again, it will by pass that screen when it does the user check when trying to login<br> 
+                9. If the users agrees to the terms the if they log out and re-login they will not have to so that again, it will by pass that screen when it does the user check when trying to login<br> 
+                10. If the users agrees to the terms the if they log out and re-login they will not have to so that again, it will by pass that screen when it does the user check when trying to login<br> 
+                11. If the users agrees to the terms the if they log out and re-login they will not have to so that again, it will by pass that screen when it does the user check when trying to login<br> 
+                12. If the users agrees to the terms the if they log out and re-login they will not have to so that again, it will by pass that screen when it does the user check when trying to login<br> 
+                13. If the users agrees to the terms the if they log out and re-login they will not have to so that again, it will by pass that screen when it does the user check when trying to login<br> 
+                14. If the users agrees to the terms the if they log out and re-login they will not have to so that again, it will by pass that screen when it does the user check when trying to login<br> 
+            </p>
+        </div>
+    </div>
+    <ion-item class="agree-item">
+            <ion-label>I agree</ion-label>
+            <ion-checkbox></ion-checkbox>        
+    </ion-item>
+    <div class="btn-div">
+
+      <button class="login" ion-button block (click)="acceptTerms()">Login</button>
+    </div>
+</ion-content>

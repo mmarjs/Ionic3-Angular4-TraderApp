@@ -1,0 +1,24 @@
+page-home{
+    ion-content{
+        
+        ion-list{
+            padding-top: 19%;
+            .btn-item{
+                padding-left: 0;
+                p{
+                    padding-left: 3%;
+                    font-size: 5vw;
+                }
+            }
+        }
+        .btn-div{
+            .button{
+                background-color: #9ccc65;
+                border-radius: 2vw;
+                text-transform: none;
+                font-size: 5vw;
+                box-shadow: none;
+            }
+        }
+    }
+}

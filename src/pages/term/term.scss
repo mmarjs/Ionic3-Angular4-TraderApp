@@ -1,0 +1,36 @@
+page-term{
+    ion-content{
+        
+        .term-body{            
+            background-color: black;
+            overflow-y: scroll;
+            height: 57%;
+            .content-txt{
+                p{
+                    color: white;
+                }
+            }
+        }
+        .agree-item{
+            background-color: black;
+            color: white;
+            .checkbox{
+                margin: 0 !important;
+                margin-right: 5px !important;
+            }
+            .item-inner{
+                border-bottom: none !important;
+            }
+        }
+        .btn-div{
+            padding-top: 5%;
+            .button{
+                background-color: #9ccc65;
+                border-radius: 2vw;
+                text-transform: none;
+                font-size: 5vw;
+                box-shadow: none;
+            }
+        }        
+    }   
+}

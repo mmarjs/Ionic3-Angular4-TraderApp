@@ -1,0 +1,37 @@
+page-audio {
+    ion-content{
+        
+        .scroll-body{
+            background-color: white;
+            overflow-y: scroll;
+            height: 50%;
+            .btn-item{
+                padding-left: 0;
+                min-height: 6.4rem;
+                .item-inner{
+                    padding-right: 0;
+                }
+                p{
+                    padding-left: 10px;
+                    color: black;
+                }
+            }
+        }
+        .audio-option{
+        	background:black !important;
+        }
+        .range-inline{
+        	padding:0px!important;
+        }
+        .btn-div{
+            padding-top: 5%;
+            .button{
+                background-color: #9ccc65;
+                border-radius: 2vw;
+                text-transform: none;
+                font-size: 5vw;
+                box-shadow: none;
+            }
+        }
+    }
+}

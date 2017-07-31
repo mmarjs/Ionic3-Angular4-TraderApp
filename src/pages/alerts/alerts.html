@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar> 
+    <ion-title>
+      Alerts  
+    </ion-title> 
+    <ion-buttons left> 
+        <button ion-button menuToggle icon-only>
+            <ion-icon name='menu'></ion-icon>
+        </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+    <div class="logo-icon">
+        <img src="assets/img/logo.png">
+    </div><br /><br /> 
+    <ion-list>    
+	  	<ion-item class="btn-item" (click)="goToScreen('audio')">
+	      <p>Audio Alerts</p>
+	    </ion-item>
+	    <ion-item class="btn-item" (click)="goToScreen('message')">
+	      <p>Message Alerts</p>
+	    </ion-item>
+	    <ion-item class="btn-item" (click)="goToScreen('offer')">
+	      <p>Offer Alerts</p>
+	    </ion-item>
+	</ion-list>    
+    <div class="btn-div">
+      <button class="main-menu" ion-button block large (click)="gotoMainMenu()">Main Menu</button>
+    </div>
+</ion-content>

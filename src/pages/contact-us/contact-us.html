@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Contact Us
+    </ion-title>
+    <ion-buttons left>
+        <button ion-button menuToggle icon-only>
+            <ion-icon name='menu'></ion-icon>
+        </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+    <div class="logo-icon">
+        <img src="assets/img/logo.png">
+    </div><br /><br />
+    <div class="phone_number">
+    	<p>Name #: John Doe</p>
+        <p>Phone #: (123) 456-7890</p>
+        <p>Address #: 123 6th St. Melbourne, FL 32904</p>
+        <p>Email #: abc@xyz.com</p>
+    </div>
+    <div class="title-txt">
+        <p>All Emails will be answered in the order they are received. Please allow us time to get back to you</p>
+    </div>
+    <ion-item>
+        <ion-input type="text" placeholder="subject" ></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-textarea autocomplete="true"
+            spellcheck="true"
+            autocorrect="on" 
+            rows="6"
+            placeholder="email content"
+            >
+        </ion-textarea>
+    </ion-item>
+    <div class="btn-div">
+      <button ion-button block large>Send Email</button>
+    </div>
+    <div class="btn-div">
+        <button ion-button block large (click)="mainMenu()">Main Menu</button>
+    </div>
+</ion-content>

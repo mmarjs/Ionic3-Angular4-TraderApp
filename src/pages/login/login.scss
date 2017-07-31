@@ -1,0 +1,28 @@
+page-login{
+    ion-content{
+        
+        
+        .signin-txt{
+            background-color: transparent;
+            text-align: center;
+            .item-inner{
+                border-bottom: none !important;
+            }
+            p{
+                padding: 0;
+                margin: 0;
+                color: white;
+                font-size: 7vw;
+            }
+        }        
+        .btn-div{
+            .button{
+                background-color: #9ccc65;
+                border-radius: 2vw;
+                text-transform: none;
+                font-size: 5vw;
+                box-shadow: none;
+            }
+        }
+    }
+}

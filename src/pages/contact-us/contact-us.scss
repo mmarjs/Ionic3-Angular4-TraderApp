@@ -1,0 +1,25 @@
+page-contact-us {
+    ion-content{
+        .phone_number{
+            color: white;
+            p{
+                font-size: 4vw;
+            }
+        }
+        .title-txt{
+            color: red;
+            p{
+                font-size: 5vw;
+            }
+        }
+         .btn-div{
+            .button{
+                background-color: #9ccc65;
+                border-radius: 2vw;
+                text-transform: none;
+                font-size: 5vw;
+                box-shadow: none;
+            }
+        }
+    }
+}
